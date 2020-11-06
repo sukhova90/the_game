@@ -1,0 +1,16 @@
+levels:
+  - !empty_map {}
+  - !special_map
+    rat: 5
+  - !special_map
+    rat: 10
+    knight: 5
+  - !special_map
+    cat_1: 3
+    cat_2: 2
+    cat_3: 3
+    cat_4: 2
+    cat_5: 3
+    cat_6: 2
+  - !random_map {}
+  - !random_map {}

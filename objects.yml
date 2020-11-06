@@ -1,0 +1,103 @@
+objects:
+  stairs:
+    sprite: [stair.jpg]
+    action: reload_game
+    min-count: 1
+    max-count: 1
+  chest:
+    sprite: [chest.jpg]
+    action: add_gold
+    min-count: 0
+    max-count: 3
+ally:
+  bless:
+    sprite: [NPC_1.jpg]
+    action: apply_blessing
+    min-count: 1
+    max-count: 5
+  remove:
+    sprite: [NPC_2.jpg]
+    action: remove_effect
+    min-count: 1
+    max-count: 5
+  heal:
+    sprite: [NPC_3.jpg]
+    action: restore_hp
+    min-count: 1
+    max-count: 3
+  cat_power:
+    sprite: [NPC_4.jpg]
+    action: cat_power
+    min-count: 1
+    max-count: 3
+enemies:
+  rat:
+    sprite: [rat.jpg]
+    strength: 2
+    endurance: 2
+    intelligence: 2
+    luck: 1
+    experience: 50
+  knight:
+    sprite: [enemy.jpg]
+    strength: 15
+    endurance: 15
+    intelligence: 15
+    luck: 10
+    experience: 200
+  naga:
+    sprite: [naga.jpg]
+    strength: 25
+    endurance: 25
+    intelligence: 25
+    luck: 10
+    experience: 500
+  dragon:
+    sprite: [dragon.jpg]
+    strength: 50
+    endurance: 50
+    intelligence: 50
+    luck: 5
+    experience: 1000
+  cat_1:
+    sprite: [cat_1.jpg]
+    strength: 5
+    endurance: 5
+    intelligence: 5
+    luck: 10
+    experience: 100
+  cat_2:
+    sprite: [cat_2.jpg]
+    strength: 5
+    endurance: 5
+    intelligence: 5
+    luck: 10
+    experience: 100
+  cat_3:
+    sprite: [cat_3.jpg]
+    strength: 5
+    endurance: 5
+    intelligence: 5
+    luck: 10
+    experience: 100
+  cat_4:
+    sprite: [cat_4.jpg]
+    strength: 5
+    endurance: 5
+    intelligence: 5
+    luck: 10
+    experience: 100
+  cat_5:
+    sprite: [cat_5.jpg]
+    strength: 5
+    endurance: 5
+    intelligence: 5
+    luck: 10
+    experience: 100
+  cat_6:
+    sprite: [cat_6.jpg]
+    strength: 5
+    endurance: 5
+    intelligence: 5
+    luck: 10
+    experience: 100
